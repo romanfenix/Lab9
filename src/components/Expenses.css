@@ -1,0 +1,79 @@
+.expenses {
+  padding: 1rem;
+  background-color: #252222;
+  border-radius: 12px;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+}
+/* Контейнер вокруг кнопки Add New Expense */
+.add-expense-container {
+  background-color: #b07af2; /* Задайте нужный цвет фона */
+  padding: 1rem;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* Styling for the "Add New Expense" button */
+.add-expense-button {
+  background-color: #5c24c6;
+  color: rgb(255, 254, 254);
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+  margin: 1rem auto;
+  width: fit-content;
+}
+
+.add-expense-button:hover {
+  background-color: #7c5dbb;
+}
+
+/* Additional styling for the form controls in NewExpense */
+.new-expense__controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.new-expense__control {
+  flex: 1;
+}
+
+.new-expense__actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+/* Styling for the Add and Cancel buttons */
+.new-expense__actions button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+}
+
+.new-expense__actions button[type="button"] {
+  background-color: #f44336;
+  color: white;
+}
+
+.new-expense__actions button[type="button"]:hover {
+  background-color: #d32f2f;
+}
+
+.new-expense__actions button[type="submit"] {
+  background-color: #6535c0;
+  color: white;
+}
+
+.new-expense__actions button[type="submit"]:hover {
+  background-color: #7c5dbb;
+}

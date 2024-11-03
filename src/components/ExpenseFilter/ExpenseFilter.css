@@ -1,0 +1,12 @@
+.expense-filter {
+    color: #fff;
+    padding: 0.5rem;
+  }
+  
+  .expense-filter__control {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
